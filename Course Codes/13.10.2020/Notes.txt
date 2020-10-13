@@ -1,0 +1,3 @@
+Proje açmak için : new -- project dedikten sonra daha sonrasında projenin 
+içine main.cpp / class.cpp / class.h i ekle daha sonrasında çalıştır.
+
