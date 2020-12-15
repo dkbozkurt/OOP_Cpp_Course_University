@@ -21,7 +21,7 @@ public:
 	int getSize() const;
 	
 	quiz2calisma& operator*(void);	//.append() gibi calisir size i 1 büyütüp icine 0-9 arasi bir rakam atar, ama bas tarafina.
-	quiz2calisma& operator++(int); 	//.append() gibi calisir size i 1 büyütüp icine 0-9 arasi bir rakam atar.
+	quiz2calisma operator++(int); 	//.append() gibi calisir size i 1 büyütüp icine 0-9 arasi bir rakam atar.
 	const quiz2calisma& operator=(const quiz2calisma&);
 	bool operator==(const quiz2calisma& );
 	

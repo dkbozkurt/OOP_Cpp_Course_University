@@ -55,3 +55,6 @@ int main(int argc, char** argv) {
 	}
 	return 0;
 }
+//Eger func. obje döndürüyorsa ve func. const olmasý isteniyorsa, const func. baþýna yazýlýr sonuna degil. 
+//Bir objeyi bir fonk. icinde kullanýyorsak kesinlikle parantez icine const yazýp & kullanmaliyiz. Array(const Array &)
+//Array ( const Array &) gibi bir consructor gorursek. constr. icine obje cagirilir.

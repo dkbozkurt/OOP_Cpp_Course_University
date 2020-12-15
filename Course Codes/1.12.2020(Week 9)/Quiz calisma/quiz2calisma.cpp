@@ -60,13 +60,13 @@ quiz2calisma& quiz2calisma::operator*(void)	//quiz2calisma:: dan öncesi döndürec
 	(*this).ptr[0]=rand()%100;	
 	return *this;
 }
-quiz2calisma& quiz2calisma::operator++(int ss)
+quiz2calisma quiz2calisma::operator++(int ss)	//a++
 {
-	quiz2calisma temp(this->size);
-	this->size=this->size+1;
-	this->ptr[this->size-1]=rand()%100;
-	
-	return *this;
+	quiz2calisma temp(*this);	//this objecsini const a atiyor kopyalýyoruz yani
+
+	temp.size=temp.size+1;
+	temp.ptr[temp.size-1]=rand()%100;
+	return temp;
 }
 
 const quiz2calisma& quiz2calisma::operator=(const quiz2calisma& x)

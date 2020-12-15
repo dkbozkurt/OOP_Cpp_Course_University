@@ -18,7 +18,7 @@ int main(int argc, char** argv) {
 	cout <<"*Array1 = [ " <<*array1 <<" ]" << endl;
 	cout <<"**Array1 = [ " <<*array1 <<" ]" << endl;
 	cout <<"Array1* = [ " <<array1++<<" ]" << endl;
-
+/*
 
 	quiz2calisma array2(8);
 	
@@ -41,6 +41,9 @@ int main(int argc, char** argv) {
 		cout << "Array3 and Array2 are the same arrays." << endl;
 	else
 		cout << "Array3 and Array2 are not the same arrays." << endl;
-	
+	*/
 	return 0;
 }
+//Eger func. obje döndürüyorsa ve func. const olmasý isteniyorsa, const func. baþýna yazýlýr sonuna degil. 
+//Bir objeyi bir fonk. icinde kullanýyorsak kesinlikle parantez icine const yazýp & kullanilir. Array(const Array &)
+//Array ( const Array &) gibi bir consructor gorursek. constr. icine obje cagirilir.
